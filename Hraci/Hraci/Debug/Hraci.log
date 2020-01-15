@@ -1,0 +1,7 @@
+﻿  Turnaj.cpp
+C:\Users\Rufo123\source\repos\Hraci\Hraci\Turnaj.cpp(43,14): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\Rufo123\source\repos\Hraci\Hraci\Turnaj.cpp(93,17): warning C4834: discarding return value of function with 'nodiscard' attribute
+C:\Users\Rufo123\source\repos\Hraci\Hraci\Turnaj.cpp(100,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Rufo123\source\repos\Hraci\Hraci\Turnaj.cpp(125,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Rufo123\source\repos\Hraci\Hraci\Turnaj.cpp(137,12): warning C4834: discarding return value of function with 'nodiscard' attribute
+  Hraci.vcxproj -> C:\Users\Rufo123\source\repos\Hraci\Debug\Hraci.exe
