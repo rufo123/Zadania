@@ -1,6 +1,7 @@
 #pragma once
 #include <string>
 #include "Hrac.h"
+#include "Vystup.h"
 
 using namespace std;
 
@@ -20,5 +21,7 @@ public:
 	void Premiesaj();
 	void Roztried();
 	void PorovnajKarty();
+	void ZapisVysledok(const char* pMenosuboru);
+	void NajdiKartu(int pCislo, char pPismeno);
 };
 

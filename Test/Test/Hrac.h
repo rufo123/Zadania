@@ -14,6 +14,8 @@ public:
 	string getKarta(int pCisloVZozname);
 	void pridajVyhru();
 	int getVyhry();
+	bool MamKartu(string pKarta);
+	
 	
 };
 

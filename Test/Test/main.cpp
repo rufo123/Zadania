@@ -11,6 +11,8 @@ int main()
     karty.Premiesaj();
     karty.Roztried();
     karty.PorovnajKarty();
+    karty.ZapisVysledok("Vystup.txt");
+    karty.NajdiKartu(1, 'B');
 
 }
 

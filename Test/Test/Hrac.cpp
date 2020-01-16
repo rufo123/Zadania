@@ -30,4 +30,9 @@ int Hrac::getVyhry()
 	return aPocitadloVyhier;
 }
 
+bool Hrac::MamKartu(string pKarta)
+{
+	return false;
+}
+
 

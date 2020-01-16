@@ -42,7 +42,7 @@ void Karty::PorovnajKarty()
 		pomHodnKarty1 = hrac1.getKarta(i).at(0);
 		pomHodnKarty2 = hrac2.getKarta(i).at(0);
 
-		cout << "Porovnavam Karty:" << pomCisloKarty1 << pomHodnKarty1 << "" << pomCisloKarty2 << pomHodnKarty2 << endl;
+		cout << "Porovnavam Karty:" << pomCisloKarty1 << pomHodnKarty1 << " " << pomCisloKarty2 << pomHodnKarty2 << endl;
 
 		if (pomCisloKarty1 > pomCisloKarty2) {
 			hrac1.pridajVyhru();
@@ -67,5 +67,29 @@ void Karty::PorovnajKarty()
 	}
 
 
+}
+
+void Karty::ZapisVysledok(const char* pMenosuboru)
+{
+	if (pMenosuboru && *pMenosuboru) {
+	
+		Vystup subor(pMenosuboru);
+		subor.Vypis("Hrac 1 Ziskal: " + to_string(hrac1.getVyhry()), false);
+		subor.Vypis("Hrac 2 Ziskal: " + to_string(hrac2.getVyhry()), false);
+	
+	}
+}
+
+void Karty::NajdiKartu(int pCislo, char pPismeno)
+{
+	for (size_t i = 0; i < 16; i++)
+	{
+		if (pCislo == hrac1.getKarta(i).at(1) - '0' && pPismeno == hrac1.getKarta(i).at(0)) {
+			cout << "Tuto kartu vlastni Hrac cislo 1" << endl;
+		} else if (pCislo == hrac2.getKarta(i).at(1) - '0' && pPismeno == hrac2.getKarta(i).at(0)) {
+			cout << "Tuto kartu vlastni Hrac cislo 2" << endl;
+		}
+		
+	}
 }
 

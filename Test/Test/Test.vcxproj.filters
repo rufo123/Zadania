@@ -24,12 +24,18 @@
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Vystup.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Karty.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Hrac.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Vystup.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
