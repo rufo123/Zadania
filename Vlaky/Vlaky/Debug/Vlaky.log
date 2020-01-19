@@ -1,0 +1,69 @@
+﻿  main.cpp
+  Riadenie.cpp
+c:\Users\Rufo123\source\repos\Vlaky\Vlaky\Riadenie.cpp(36,29): error C2660: 'Vlaky::pridajStanicu': function does not take 0 arguments
+c:\Users\Rufo123\source\repos\Vlaky\Vlaky\Vlaky.h(22,7): message : see declaration of 'Vlaky::pridajStanicu'
+  Vlaky.cpp
+c:\Users\Rufo123\source\repos\Vlaky\Vlaky\Vlaky.cpp(31,33): error C2664: 'void std::vector<Stanice *,std::allocator<Stanice *>>::push_back(_Ty &&)': cannot convert argument 1 from 'Stanice' to 'const _Ty &'
+          with
+          [
+              _Ty=Stanice *
+          ]
+c:\Users\Rufo123\source\repos\Vlaky\Vlaky\Vlaky.cpp(31,33): message : Reason: cannot convert from 'Stanice' to 'const _Ty'
+          with
+          [
+              _Ty=Stanice *
+          ]
+c:\Users\Rufo123\source\repos\Vlaky\Vlaky\Vlaky.cpp(31,25): message : No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\vector(717,10): message : see declaration of 'std::vector<Stanice *,std::allocator<Stanice *>>::push_back'
+c:\Users\Rufo123\source\repos\Vlaky\Vlaky\Vlaky.cpp(37,58): error C2440: 'initializing': cannot convert from 'std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>' to 'std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>'
+          with
+          [
+              _Ty=Stanice *
+          ]
+          and
+          [
+              _Ty=Stanice
+          ]
+c:\Users\Rufo123\source\repos\Vlaky\Vlaky\Vlaky.cpp(37,36): message : No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+c:\Users\Rufo123\source\repos\Vlaky\Vlaky\Vlaky.cpp(37,84): error C2679: binary '!=': no operator found which takes a right-hand operand of type 'std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>' (or there is no acceptable conversion)
+          with
+          [
+              _Ty=Stanice *
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\vector(152,21): message : could be 'bool std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>::operator !=(const std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<_Ty>>> &) const'
+          with
+          [
+              _Ty=Stanice
+          ]
+c:\Users\Rufo123\source\repos\Vlaky\Vlaky\Vlaky.cpp(37,84): message : while trying to match the argument list '(std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>, std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>)'
+          with
+          [
+              _Ty=Stanice
+          ]
+c:\Users\Rufo123\source\repos\Vlaky\Vlaky\Vlaky.cpp(55,58): error C2440: 'initializing': cannot convert from 'std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>' to 'std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>'
+          with
+          [
+              _Ty=Stanice *
+          ]
+          and
+          [
+              _Ty=Stanice
+          ]
+c:\Users\Rufo123\source\repos\Vlaky\Vlaky\Vlaky.cpp(55,36): message : No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+c:\Users\Rufo123\source\repos\Vlaky\Vlaky\Vlaky.cpp(55,84): error C2679: binary '!=': no operator found which takes a right-hand operand of type 'std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>' (or there is no acceptable conversion)
+          with
+          [
+              _Ty=Stanice *
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\vector(152,21): message : could be 'bool std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>::operator !=(const std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<_Ty>>> &) const'
+          with
+          [
+              _Ty=Stanice
+          ]
+c:\Users\Rufo123\source\repos\Vlaky\Vlaky\Vlaky.cpp(55,84): message : while trying to match the argument list '(std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>, std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>)'
+          with
+          [
+              _Ty=Stanice
+          ]
+  ZoznamVlakov.cpp
+  Generating Code...
