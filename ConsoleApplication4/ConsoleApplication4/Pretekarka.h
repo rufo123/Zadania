@@ -16,8 +16,11 @@ private:
 	int aTerce = 0;
 	int aCelkovyCas = 0;
 	
+	
 public:
 	Pretekarka(int pPoradie, string pPriezvisko, string pMeno, string pKrajina, int pPocetZiskBodov);
+	Pretekarka(const Pretekarka& zdroj);
+	Pretekarka& operator=(const Pretekarka& zdroj);
 
 	int getPoradie() {
 		return aPoradie;
@@ -56,17 +59,19 @@ public:
 
 	void setDosCas(int pCas) {
 		aDosCas = pCas;
-		aCelkovyCas = aDosCas;
 	}
 
 
 	void setTerce(int pTerce) {
 		aTerce = pTerce;
-		cout << "test" << endl;
 	}
 
 	void pridajCas(int pCasovaHodnota) {
 		aCelkovyCas = aCelkovyCas + pCasovaHodnota;
+	}
+
+	void addTime(int ptime) {
+		aCelkovyCas = aCelkovyCas + ptime;
 	}
 
 	//void VypisSa();
